@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --Color-primary:#27AE60;
+  --Color-primary-50:#93D7AF;
+  --Color-secondary:#EB5757;
+  --gray-100:#333333;
+  --grey-50:#828282;
+  --grey-20:#E0E0E0;
+  --grey-0:#F5F5F5;
+  --Negative:#E60000;
+  --Warning:#FFCD07;
+  --Sucess:#168821;
+  --Information:#155BCB;
+}
+body {
+  font-family: 'Inter', sans-serif;
+}
+button{
+  cursor: pointer;
+}

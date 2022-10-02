@@ -1,0 +1,63 @@
+.li_compra {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 10vh;
+  padding: 0 10px;
+}
+.li_compra figure {
+  width: 25%;
+  height: 100%;
+  background-color: var(--grey-20);
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.li_compra figure img {
+  width: 90%;
+  height: 100%;
+}
+.div_trash {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.div_trash > button {
+  height: 20%;
+  width: 100%;
+  background-color: transparent;
+}
+.count {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+  height: 30%;
+  background-color: var(--grey-20);
+  align-items: center;
+  border-radius: 8px;
+}
+.count button {
+  border-radius: 50%;
+  width: 20%;
+  color: white;
+}
+.retirar {
+  background-color: var(--Color-secondary);
+}
+.adicionar {
+  background-color: var(--Color-primary);
+}
+.trash {
+  width: 100%;
+  height: 100%;
+}
+.div_compra {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}

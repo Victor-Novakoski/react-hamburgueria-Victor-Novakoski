@@ -2,7 +2,7 @@
   min-width: 90%;
   border: 2px solid var(--grey-0);
   margin: 1rem 0;
-  max-height: 50%;
+ 
 }
 .card figure {
   padding: 0;
@@ -52,6 +52,7 @@
   .card{
     min-width: 30%;
     width: 30%;
+    max-height: 50%;
   }
 }
 @media (min-width: 1440px) {

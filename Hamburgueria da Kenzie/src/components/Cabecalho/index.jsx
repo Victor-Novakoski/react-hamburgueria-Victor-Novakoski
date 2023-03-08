@@ -3,7 +3,7 @@ import { AiOutlineSearch } from 'react-icons/ai'
 import logo from '../../assets/logo.svg'
 import './style.css'
 
-function Cabecalho({ setSearch}) {
+function Cabecalho({ setSearch }) {
   return (
     <header>
       <figure>
@@ -16,7 +16,7 @@ function Cabecalho({ setSearch}) {
             setSearch(event.target.value)
           }}
         />
-        <button type="button">
+        <button onClick={event => setSearch(event.target.value)} type="button">
           Pesquisar <AiOutlineSearch />
         </button>
       </div>

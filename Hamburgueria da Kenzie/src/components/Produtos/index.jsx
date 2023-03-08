@@ -4,22 +4,24 @@ import './style.css'
 
 function Produtos({ data, carrinho, setCarrinho }) {
   const addToCart = () => {
-    if(carrinho.find(e => e.id === data.id)){
+    if (carrinho.find(e => e.id === data.id)) {
       setCarrinho(
         [...carrinho].map(elem => {
-          if(elem.id === data.id){
-            return {...elem, count: elem.count + 1}
-          }else{
+          if (elem.id === data.id) {
+            return { ...elem, count: elem.count + 1 }
+          } else {
             return elem
           }
         })
       )
-    }else(
-      setCarrinho([...carrinho, {
-        ...data,
-        count: 1
-      }])
-    )
+    } else
+      setCarrinho([
+        ...carrinho,
+        {
+          ...data,
+          count: 1,
+        },
+      ])
   }
   return (
     <>

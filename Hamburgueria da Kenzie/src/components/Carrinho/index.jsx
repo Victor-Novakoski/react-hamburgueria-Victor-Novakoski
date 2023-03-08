@@ -6,6 +6,7 @@ import CarrinhoVazio from '../CarrinhoVazio'
 
 function Carrinho({ carrinho, setCarrinho }) {
   const total = carrinho.reduce((acc, item) => acc + item.price * item.count, 0)
+
   function removeFromCart(event) {
     setCarrinho([...carrinho].filter(elemento => elemento === event))
   }

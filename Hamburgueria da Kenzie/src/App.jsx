@@ -12,7 +12,7 @@ function App() {
   const [search, setSearch] = useState('')
   
   const filteredProducts = products.filter(product => 
-    search === '' ? true :  product.name.toLowerCase().includes(search.toLowerCase())
+    search === '' ? true : product.name.toLowerCase().includes(search.toLowerCase())
   )
 
   useEffect(() => {

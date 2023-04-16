@@ -1,6 +1,5 @@
 # Hamburgueria
-*customer-base*
-Este é um aplicativo no qual você pode gerenciar seus contatos de maneira simples e fácil.
+Este é um aplicativo no qual você pode adicionar lanches ao seu carrinho.
 
 Rodando localmente
 Clone o projeto

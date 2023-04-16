@@ -1,6 +1,8 @@
 # Hamburgueria
 Este é um aplicativo no qual você pode adicionar lanches ao seu carrinho.
 
+link do vercel https://hamburgueria-novakoski.vercel.app
+
 Rodando localmente
 Clone o projeto
 
